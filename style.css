@@ -1,0 +1,67 @@
+body{
+    background-color: black;
+}
+
+.texto{
+font-size: 20px;
+color: beige;
+}
+.tortas{
+    width: 300px;
+    height: 300px;
+    padding: 200px;
+    margin: 2px;
+}
+
+#tortaChocolate{
+    background-image: url(./multimedia/torta\ de\ chocolate.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#tortaFrutilla{
+    background-image: url(./multimedia/torta\ de\ frutilal.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#tortaVainilla{
+    background-image: url(./multimedia/torta\ vainilla.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#tortaMerengue{
+    background-image: url(./multimedia/torta\ merengue.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#chocotorta{
+    background-image: url(./multimedia/chocotorta.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#lemonPie{
+    background-image: url(./multimedia/lemon\ pie.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#chessecake{
+    background-image: url(./multimedia/chessecake.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#marquesse{
+    background-image: url(./multimedia/marquesse.png);
+    background-position: center;
+    background-size: cover;
+}
+#rogel{
+    background-image: url(./multimedia/rogel.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#carritoDeCompras{
+    background-image: url(./multimedia/blueberries-3946230_1280.jpg);
+}
