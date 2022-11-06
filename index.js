@@ -98,15 +98,25 @@ function validarFormulario(event) {
                 nombre,
                 porciones,
                 direccion,
-                
+
             );
 
             productos.push(producto);
             formulario.reset();
             actualizarProductosStorage();
             pintarProductos();
+            Swal.fire({
+                position: 'top-end',
+                icon: 'success',
+                title: 'Tu producto a sido añadido al carrito',
+                showConfirmButton: false,
+                timer: 1500
+            })
         } else {
-            alert("El id ya existe");
+            Swal.fire({
+                icon: 'error',
+                title: 'Oops...',
+            })
         }
     } else {
         alert("Identifíquese antes de agregar un producto");
@@ -183,10 +193,24 @@ function obtenerUsuarioStorage() {
     }
 }
 
+async function consultarProductosServer() {
+    try {
+        const response = await fetch(
+            "https://63474a59db76843976a97be1.mockapi.io/e-commerce"
+        );
+        const data = await response.json();
+        productos = [...data];
+        pintarProductos();
+    } catch (error) {
+        console.log(error);
+    }
+}
+
 function main() {
     inicializarElementos();
     inicializarEventos();
-    obtenerProductosStorage();
+    consultarProductosServer();
+    // obtenerProductosStorage();
     obtenerUsuarioStorage();
 }
 

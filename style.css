@@ -1,67 +1,75 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&display=swap');
+/* font-family: 'Island Moments', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Shalimar&display=swap');
+/* font-family: 'Shalimar', cursive; */
+
+
 body{
     background-color: black;
 }
 
-.texto{
-font-size: 20px;
-color: beige;
-}
-.tortas{
-    width: 300px;
-    height: 300px;
-    padding: 200px;
-    margin: 2px;
+#jumbotronInicial{
+    background-image: url(/multimedia/jumbotron.jpg);
+    background-position: center;
 }
 
+#tituloPrincipal{
+    color: grey;
+    text-align: center;
+    font-family:'Island Moments', cursive; ;
+    font-size: 70px;
+}
+
+#tituloSecundario{
+    color: white;
+    font-family: 'Shalimar', cursive;
+    font-size: 50px;
+}
+
+.tituloTorta{
+    font-family: 'Island Moments', cursive;
+    font-size: 50px;
+}
+
+p{
+    font-family: 'Shalimar', cursive;
+    font-size: 30px;
+}
+.tortas{
+    text-align: center;
+    color: beige;
+    margin: 10px;
+}
+
+img{
+    width: 300px;
+    margin: 10px;
+}
+
+
 #tortaChocolate{
-    background-image: url(./multimedia/torta\ de\ chocolate.jpg);
-    background-position: center;
-    background-size: cover;
 }
 
 #tortaFrutilla{
-    background-image: url(./multimedia/torta\ de\ frutilal.jpg);
-    background-position: center;
-    background-size: cover;
 }
 
 #tortaVainilla{
-    background-image: url(./multimedia/torta\ vainilla.jpg);
-    background-position: center;
-    background-size: cover;
 }
 
 #tortaMerengue{
-    background-image: url(./multimedia/torta\ merengue.jpg);
-    background-position: center;
-    background-size: cover;
 }
 #chocotorta{
-    background-image: url(./multimedia/chocotorta.jpg);
-    background-position: center;
-    background-size: cover;
 }
 #lemonPie{
-    background-image: url(./multimedia/lemon\ pie.jpg);
-    background-position: center;
-    background-size: cover;
 }
 #chessecake{
-    background-image: url(./multimedia/chessecake.jpg);
-    background-position: center;
-    background-size: cover;
 }
 #marquesse{
-    background-image: url(./multimedia/marquesse.png);
-    background-position: center;
-    background-size: cover;
 }
 #rogel{
-    background-image: url(./multimedia/rogel.jpg);
-    background-position: center;
-    background-size: cover;
 }
 
 #carritoDeCompras{
-    background-image: url(./multimedia/blueberries-3946230_1280.jpg);
+  background-color: rgba(231, 182, 223, 0.989);
 }
